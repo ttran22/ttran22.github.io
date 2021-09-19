@@ -2,9 +2,9 @@
     A1CCA5, 8FB996, 709775, 415D43 , 111D13 (these are all greens)
 CAN CHANGE*/
 
-body {
+header {
     background-color: #132516; 
-    color:white;
+    color: #ffffff;
     font-family:'Lucida Sans Unicode';
     text-align: center;
 }
