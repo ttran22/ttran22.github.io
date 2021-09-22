@@ -1,3 +1,20 @@
 /*PLANNED COLORS FOR THE WEBSITE:
     A1CCA5, 8FB996, 709775, 415D43 , 111D13 (these are all greens)
 CAN CHANGE*/
+
+header{
+    background-color: #FFFFFF;
+    color:#804559;
+    padding-top: 10px;
+    font-size: 25px;
+  }
+
+.navBar {
+    Text-align: center;
+    list-style-type:none;
+    background-color: #3f404b;
+    overflow: hidden;
+    padding: 1em;
+    margin-bottom: 3px;
+    border-top-color: black;
+  }
