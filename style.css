@@ -3,8 +3,7 @@
 CAN CHANGE*/
 
 header{
-    background-color: #FFFFFF;
-    color:#804559;
+    background-color: #04461f;
     padding-top: 10px;
     font-size: 25px;
   }
@@ -12,7 +11,7 @@ header{
 .navBar {
     Text-align: center;
     list-style-type:none;
-    background-color: #3f404b;
+    background-color: #055012;
     overflow: hidden;
     padding: 1em;
     margin-bottom: 3px;
