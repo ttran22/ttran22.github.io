@@ -18,3 +18,10 @@ header{
     margin-bottom: 3px;
     border-top-color: black;
   }
+  .navList a {
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 1.3 em;
+    padding: 1em;
+  
+  }
