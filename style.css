@@ -5,15 +5,12 @@ body {
 }
 
 /*Nav Bar*/
-#Logo{
- text-align: left;
-}
+
 .navBar {
   Text-align: right;
   list-style-type:none;
   background-color: #003046;
   overflow: hidden;
-  padding: 1em;
 }
 
 .navList a {
