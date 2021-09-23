@@ -1,9 +1,10 @@
 
 body {
-  background-color: #4C5C68
+  background-color: #4C5C68;
+  color:#FFFFFF
 }
 
-
+/*Nav Bar*/
 #Logo{
  text-align: left;
 }
@@ -20,5 +21,4 @@ body {
   color:#FFFFFF;
   font-size: 1.3 em;
   padding: 1em;
-
 }
