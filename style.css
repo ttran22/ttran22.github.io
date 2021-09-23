@@ -1,15 +1,29 @@
 * { /* Reset the space of the webpage */
     margin: 0px;
     padding: 0px;
- }
+}
+
 .navBar{
     background-color: #18314F;
     text-align: right;
 }
+
+.navList{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color:aliceblue;
+}
+
 #messageText{
+    /*helps position the text*/
+    padding-top: 100px;
+    padding-bottom: 220px;
+    padding-left: 40px;
+    padding-right:40px;
     color: white;
     font-size: 30px;
-    background-image: url("https://cdn.pixabay.com/photo/2019/09/29/22/06/light-bulb-4514505_1280.jpg");
+    /*all about the bckgrnd imge*/
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/08/20/02/bulb-664657_1280.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
