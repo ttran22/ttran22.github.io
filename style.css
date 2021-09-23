@@ -24,7 +24,7 @@ body {
 .navList a:hover{
   background-color: #18314F;
   color:#FFFFFF;
-  border-style: solid;
-  border-width: 2px;
+  border-style:double;
+  border-width: 3em;
   border-color: #d5c7bc;
 }
