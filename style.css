@@ -3,7 +3,11 @@ html {
   background-color: #4C5C68
 }
 
-ul {
+
+#Logo{
+ text-align: left;
+}
+.navBar {
   Text-align: right;
   list-style-type:none;
   background-color: #003046;
