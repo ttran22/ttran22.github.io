@@ -1,0 +1,8 @@
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ }
+.navBar{
+    background-color: #18314F;
+    text-align: right;
+}
