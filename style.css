@@ -1,6 +1,12 @@
-/*PLANNED COLORS FOR THE WEBSITE:
-    A1CCA5, 8FB996, 709775, 415D43 , 111D13 (these are all greens)
-CAN CHANGE*/
+
 html {
-  background-color: #111D13
+  background-color: #4C5C68
+}
+
+ul {
+  Text-align: right;
+  list-style-type:none;
+  background-color: #003046;
+  overflow: hidden;
+  padding: 1em;
 }
