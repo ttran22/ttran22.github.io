@@ -8,6 +8,10 @@ body {
 
 .navBar {
   display:inline;
+  Text-align: right;
+  list-style-type:none;
+  background-color: #003046;
+  overflow: hidden;
 }
 
 .navList a {
