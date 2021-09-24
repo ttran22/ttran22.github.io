@@ -19,13 +19,13 @@
     height: 70px;
 }
   
-.navigation-bar {
+.navBar {
     background-color: #18314F;
     height: 70px;
     width: 100%;
 }
   
-.navigation-bar ul {
+.navBar ul {
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -33,7 +33,7 @@
     background: white;
 }
   
-.navigation-bar li {
+.navBar li {
     list-style-type: none;
     padding: 0px;
     height: 24px;
@@ -42,7 +42,7 @@
     display: inline;
 }
   
-.navigation-bar li a {
+.navBar li a {
     color: black;
     font-size: 16px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
