@@ -4,7 +4,7 @@
 }
 
 .navBar{
-    background-color: #18314F;
+    background-color: white;
     text-align: right;
     list-style-type:none;
     vertical-align: top;
@@ -13,7 +13,7 @@
 .navList{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
-    color:aliceblue;
+    color:#18314F;
     display:inline;
 }
 
@@ -36,10 +36,3 @@
     margin-right:6%;
 }
 /*Headings and Stuff*/
-.logo{
-    display: inline-block;
-    vertical-align: top;
-    text-align:left;
-    width: 50px;
-    height: 50px;
-}
