@@ -7,8 +7,7 @@
     background-color: #18314F;
     text-align: right;
     list-style-type:none;
-    overflow: hidden;
-
+    vertical-align: top;
 }
 
 .navList{
@@ -37,7 +36,9 @@
     margin-right:6%;
 }
 /*Headings and Stuff*/
-.header{
-    text-align:left;
-    color: white
+.logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
 }
