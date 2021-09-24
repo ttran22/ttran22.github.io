@@ -6,12 +6,16 @@
 .navBar{
     background-color: #18314F;
     text-align: right;
+    list-style-type:none;
+    overflow: hidden;
+
 }
 
 .navList{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
     color:aliceblue;
+    display:inline;
 }
 
 #messageText{
@@ -23,7 +27,7 @@
     color: white;
     font-size: 30px;
     /*all about the bckgrnd imge*/
-    background-image: url("https://cdn.pixabay.com/photo/2015/03/08/20/02/bulb-664657_1280.jpg");
+    background-image: linear-gradient(to right,#18314F to #345c8d);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
