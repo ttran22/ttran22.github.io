@@ -8,11 +8,6 @@
 }
 
 /* Navigation Bar */
-#navigation-container {
-    width: 1100px;
-    margin: 0 auto;
-    height: 70px;
-}
 
 .navList{
     display: inline
@@ -20,14 +15,16 @@
 
 .navBar {
     background-color: #18314F;
-    height: 70px;
+    height: 10em;
     width: 100%;
-    padding: 1em;
+    overflow:visible;
+    margin-bottom:10px;
+    padding: 25px;
 }
   
 .navBar ul {
-    padding: 0px;
-    margin: 0px;
+    padding: 0em;
+    margin: 0em;
     text-align: right;
     float:right;
     background: #18314F;
@@ -45,8 +42,9 @@
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-    line-height: 75px;
-    padding: 5px 15px;
+    line-height: 10em;
+    padding: 2em;
+    margin-right: 1em;
 }
 
 .navBar a:hover{
@@ -55,7 +53,7 @@
     border-style: solid;
     border-width: 2px;
     border-color:#d6d6d6;
-    padding: 15px;
+    padding: 2em;
 }
 
 #menu {
@@ -64,12 +62,12 @@
 
 #messageText{
     /*helps position the text*/
-    padding-top: 100px;
-    padding-bottom: 220px;
+    padding-top: 3em;
+    padding-bottom: 2em;
     padding-left: 40px;
     padding-right:40px;
     color: #18314F;
-    font-size: 30px;
+    font-size: 9em;
     /*all about the bckgrnd imge*/
     background-repeat: no-repeat;
     background-attachment: fixed;
