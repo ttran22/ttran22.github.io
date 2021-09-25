@@ -33,7 +33,7 @@
   
 .navBar li {
     list-style-type:none;
-   padding: 0px;
+   padding: 0em;
     display: inline;
 }
   
@@ -56,9 +56,6 @@
     padding: 2em;
 }
 
-#menu {
-    float: right;
-}
 
 #messageText{
     /*helps position the text*/
