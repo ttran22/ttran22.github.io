@@ -15,11 +15,11 @@
 
 .navBar {
     background-color: #18314F;
-    height: 10em;
+    height: 9em;
     width: 100%;
     overflow:visible;
     margin-bottom:.9em;
-    padding: 2em;
+    padding: 1.7em;
 }
   
 .navBar ul {
@@ -30,11 +30,12 @@
     background: #18314F;
     color: white;
 }
-  
-.navBar li {
-    list-style-type:none;
-   padding: 0em;
+
+.navList{
     display: inline;
+    list-style-type: none;
+    padding: 0em;
+
 }
   
 .navBar li a {
@@ -43,7 +44,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     line-height: 10em;
-    padding: 2em;
+    padding: 1.7em;
     margin-right: 1em;
 }
 
@@ -64,7 +65,7 @@
     padding-left: 3em;
     padding-right:3em;
     color: #18314F;
-    font-size: 3.6em;
+    font-size: 50em;
     /*all about the bckgrnd imge*/
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -74,4 +75,20 @@
     margin-left:.1em;
     margin-right:.1em;
 }
-/*Headings and Stuff*/
+/*Headings and TEXT*/
+
+.miniTitles{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4%;
+    padding:5%;
+}
+
+.normalText{
+    margin-top:0;
+    margin-bottom:5%;;
+    margin-left:10%;
+    margin-right:10%;
+    font-size: 20px;
+    text-align:center;
+}
