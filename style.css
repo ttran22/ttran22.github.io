@@ -61,10 +61,10 @@
     /*helps position the text*/
     padding-top: 3em;
     padding-bottom: 2em;
-    padding-left: 40px;
-    padding-right:40px;
+    padding-left: 3em;
+    padding-right:3em;
     color: #18314F;
-    font-size: 9em;
+    font-size: 20%;
     /*all about the bckgrnd imge*/
     background-repeat: no-repeat;
     background-attachment: fixed;
