@@ -2,12 +2,13 @@
     margin: 0em;
     padding: 0em;
 }
-
+html{
+    background-color: #18314F;
+}
 .logo {
     float: left;
+  
 }
-
-/* Navigation Bar */
 
 .navList{
     display: inline
@@ -15,11 +16,12 @@
 
 .navBar {
     background-color: #18314F;
-    height: 9em;
+    height: 10em;
     width: 100%;
     overflow:visible;
-    margin-bottom:.9em;
-    padding: 1.7em;
+    margin-bottom: 5px;
+    padding: 15px;
+
 }
   
 .navBar ul {
@@ -30,12 +32,11 @@
     background: #18314F;
     color: white;
 }
-
-.navList{
+  
+.navBar li {
+    list-style-type:none;
+   padding: 0em;
     display: inline;
-    list-style-type: none;
-    padding: 0em;
-
 }
   
 .navBar li a {
@@ -44,28 +45,30 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     line-height: 10em;
-    padding: 1.7em;
-    margin-right: 1em;
+    padding:1em;
+    margin-right: 0em;
 }
 
 .navBar a:hover{
     background-color: #ffffff;
     color:#45588b;
     border-style: solid;
-    border-width: .6em;
+    border-width: 2px;
     border-color:#d6d6d6;
-    padding: .6em;
+    padding: 1em;
+    margin: 3em;
+
 }
 
 
 #messageText{
     /*helps position the text*/
-    padding-top: 3em;
-    padding-bottom: 2em;
-    padding-left: 3em;
-    padding-right:3em;
-    color: #18314F;
-    font-size: 50em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    padding-right:2.5em;
+    color: #ffffff;
+    font-size: 5em;
     /*all about the bckgrnd imge*/
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -79,9 +82,10 @@
 
 .miniTitles{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 4%;
     padding:5%;
+    color:#ffffff;
 }
 
 .normalText{
@@ -89,6 +93,7 @@
     margin-bottom:5%;;
     margin-left:10%;
     margin-right:10%;
-    font-size: 20px;
+    font-size: 15px;
     text-align:center;
+    color:#ffffff;
 }
