@@ -5,9 +5,9 @@
 html{
     background-color: #18314F;
 }
+
 .logo {
-    float: left;
-  
+    float: left;  
 }
 
 .navList{
@@ -41,12 +41,13 @@ html{
   
 .navBar li a {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-    line-height: 10em;
-    padding:1em;
-    margin-right: 0em;
+    line-height: 15em;
+    padding: .5em;
+    padding-right: 1em;
+    margin: 2em;
 }
 
 .navBar a:hover{
@@ -56,35 +57,38 @@ html{
     border-width: 2px;
     border-color:#d6d6d6;
     padding: 1em;
-    margin: 3em;
+    margin: 1.5em;
 
 }
 
 
 #messageText{
     /*helps position the text*/
-    padding-top: 1.5em;
-    padding-bottom: 1em;
-    padding-left: 2.5em;
-    padding-right:2.5em;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    padding-left: 2em;
+    padding-right:2em;
     color: #ffffff;
     font-size: 5em;
     /*all about the bckgrnd imge*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    margin-top:1em;
+    margin-top:.1em;
     margin-bottom:1em;
     margin-left:.1em;
     margin-right:.1em;
 }
+
+
 /*Headings and TEXT*/
 
 .miniTitles{
     text-align: center;
     font-size: 2em;
     margin-top: 4%;
-    padding:5%;
+    padding:3%;
     color:#ffffff;
 }
 
@@ -96,4 +100,10 @@ html{
     font-size: 1.5em;
     text-align:center;
     color:#ffffff;
+}
+
+.List{
+    color: white;
+    text-align: center;
+    font-size: .1 em;
 }
