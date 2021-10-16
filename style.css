@@ -61,7 +61,7 @@ html{
 }
 
 /*LAYOUT FOR PHONE*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     /*shows elements in a column*/
     ul{
       flex-direction: column;
@@ -77,15 +77,13 @@ html{
     }
 }
 
+
 button{
     display: none;
+    cursor: pointer;
+    align-self: flex-start
 }
 
-/*if screen is smaller*/
-button{
-    display: block;
-    cursor: pointer;
-}
 #messageText{
     /*helps position the text*/
     text-align: center;
