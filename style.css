@@ -8,20 +8,19 @@ html{
 
 .logo {
     float: left;  
+    padding:-2em;
 }
 
 .navList{
-    display: inline
+    display:inline;
+    margin-right:3em;
 }
 
 .navBar {
     background-color: #18314F;
-    height: 10em;
-    width: 100%;
+    width: 100vw;
     overflow:visible;
-    margin-bottom: 5px;
-    padding: 15px;
-
+   padding-bottom: 5em;
 }
   
 .navBar ul {
@@ -31,12 +30,14 @@ html{
     float:right;
     background: #18314F;
     color: white;
+    display: flex;
+    padding-bottom: 3em;
 }
   
 .navBar li {
     list-style-type:none;
-   padding: 0em;
-    display: inline;
+    margin:2vw;
+    font-size:3vh;
 }
   
 .navBar li a {
@@ -44,10 +45,8 @@ html{
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-    line-height: 15em;
-    padding: .5em;
-    padding-right: 1em;
-    margin: 2em;
+    padding:2vh;
+   
 }
 
 .navBar a:hover{
@@ -56,12 +55,37 @@ html{
     border-style: solid;
     border-width: 2px;
     border-color:#d6d6d6;
-    padding: 1em;
-    margin: 1.5em;
+    padding: .75em;
+    margin: .75em;
 
 }
 
+/*LAYOUT FOR PHONE*/
+@media only screen and (max-width: 500px) {
+    /*shows elements in a column*/
+    ul{
+      flex-direction: column;
+    }
+    
+    /* deletes margin on top or bottom of the a tag*/
+    li{
+      margin: 0;
+    }
+   /* makes sure that the a tag will take the entire screen*/
+    a{
+      display: block;
+    }
+}
 
+button{
+    display: none;
+}
+
+/*if screen is smaller*/
+button{
+    display: block;
+    cursor: pointer;
+}
 #messageText{
     /*helps position the text*/
     text-align: center;

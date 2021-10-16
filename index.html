@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <script src="jquery-3.4.0.min.js"></script>
         <link rel="stylesheet" href="/style.css" />
 
 	    <!-- link the webpage's JavaScript file -->
@@ -18,7 +19,7 @@
             <img class= "logo" src="assets/logo.png" alt="logo of website" />
                 <ul>
                     <li class = "navlist">  <a href= "index.html"> Home </a> </li>
-                    <li class = "navList">  <a href= "projects.html"> My Projects </a></li>
+                    <li class = "navList">  <a href= "projects.html"> Projects </a></li>
                     <li class = "navList">  <a href= "contact.html"> Contact </a> </li>
                     <li class = "navList">  <a href= "resume.html"> Resume </a> </li>
                 </ul>
@@ -49,4 +50,22 @@
             </div>
         </p>
     </body>
+
+    <script>
+        $(document).ready(function(){
+        /* function when clickthe button */
+        $("button").click(function(){
+      
+      /* this if else to change the text in the button */
+      if($("button").text() == "☰"){
+       $("button").text("🞬");
+      }else{
+        $("button").text("☰");
+      }
+    
+     /* this function toggle the visibility of our "li" elements */
+        $("li").toggle("slow");
+        });
+    });
+    </script>
 </html>
