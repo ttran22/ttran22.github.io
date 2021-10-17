@@ -31,6 +31,7 @@ html{
     background: #18314F;
     color: white;
     display: flex;
+    padding-top:1em;
     padding-bottom: 3em;
 }
   
@@ -89,17 +90,13 @@ button{
     text-align: center;
     padding-top: 2em;
     padding-bottom: 3.5em;
-    padding-left: 2em;
-    padding-right:2em;
+    padding-left: 3vh;
+    padding-right:3vh;
     color: #ffffff;
-    font-size: 5em;
+    font-size: 13vh;
     /*all about the bckgrnd imge*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center top;
     margin-top:.1em;
     margin-bottom:1em;
-  
 }
 
 
