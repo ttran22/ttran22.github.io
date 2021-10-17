@@ -3,66 +3,58 @@
     padding: 0em;
 }
 html{
-    background-color: #18314F;
+    background-color:#18314F;
+
 }
 
-.navbar-brand {
+.logo {
     float: left;  
-    color:white;
+    color:rgb(235, 235, 238);
     font-size: 1em;
    margin: 2em;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 15px;
 }
 
-.navList{
-    display:inline;
-    margin-right:3em;
-}
 
-.navBar {
+nav {
     background:#18314F;
-    width: 100vw;
-    overflow:visible;
-   padding-bottom: 5em;
-   top: 0;
-   z-index: 99;
-   margin-bottom: 1em;
-   position:fixed;
-   top:0;
-   width: 100%;
-
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
 }
   
-.navBar ul {
-    padding: 0em;
-    margin: 0em;
-    text-align: right;
-    float:right;
-    background:#18314F;
-    color: white;
-    display: flex;
-    padding-top:1em;
-    padding-bottom: 2em;
-    opacity: 50;
-
-}
-  
-.navBar li {
+.nav-links {
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
     list-style-type:none;
     margin:1vw;
-    font-size:3vh;
-
+    font-size:3em;
+    color: white;
 }
-  
-.navBar li a {
-    color: #ffffff;
+
+.nav-links a{
+    list-style: none;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.nav-links li {
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: none;
     padding:2vh;
    
 }
 
-.navBar a:hover{
+nav a:hover{
     background-color: #ffffff;
     color:#45588b;
     border-style: solid;
@@ -70,43 +62,72 @@ html{
     border-color:#d6d6d6;
     padding: .50em;
     margin: .50em;
+    font-weight:bold;
 
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 30px;
+    height:3px;
+    background-color:rgb(211, 211, 211);
+    margin: 5px;
 }
 
 /*LAYOUT FOR PHONE*/
-@media only screen and (max-width:992px) {
-    /*shows elements in a column*/
-    ul{
-      flex-direction: column;
+@media only screen and (max-width:760px) {
+   body{
+       overflow-x: hidden;
+   }
+    .nav-links{
+       position:absolute;
+        right: 0px;
+        height: 50vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        position:fixed;
+   }
+   .nav-links li{
+       color: white;
+   }
+   .burger{
+       display: block;
+   }
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity:0;
+        transform: translateX(50px);
     }
-    
-    /* deletes margin on top or bottom of the a tag*/
-    li{
-      margin: 0;
-    }
-   /* makes sure that the a tag will take the entire screen*/
-    a{
-      display: block;
+    to{
+        opacity:1;
+        transform: translateX(0px);
+
     }
 }
 
-
-button{
-    display: none;
-    cursor: pointer;
-    align-self: flex-start
-}
 
 #messageText{
     /*helps position the text*/
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 3.5em;
+    padding-top: 3em;
+    padding-bottom: 2em;
     padding-left: 3vh;
     padding-right:3vh;
     color: #ffffff;
     font-size: 13vh;
-    /*all about the bckgrnd imge*/
     margin-top:.1em;
     margin-bottom:1em;
 }
@@ -138,7 +159,6 @@ button{
     font-size: 1em;
     padding-bottom: 2em;
 }
-
 
 
 
