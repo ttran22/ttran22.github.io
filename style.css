@@ -1,102 +1,117 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
-  height: 100%;
-  font-family: Arial, sans-serif;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .left {
-  width: 20%;
-  background-color: #abddfd;
-  color: rgb(0, 0, 0);
-  padding: 40px;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 40px; /* space so content doesn't touch line */
-  position: relative;   /* needed for ::after */
+    width: 20%;
+    background-color: #abddfd;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    padding-right: 40px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .left::after {
-  content: '';
-  position: absolute;
-  top: 10vh;           
-  bottom: 10vh;
-  right: 0;
-  width: 1px;
-  background-color: rgb(32, 39, 41); /* thin vertical line color */
+    content: '';
+    position: absolute;
+    top: 10vh;
+    bottom: 10vh;
+    right: 0;
+    width: 1px;
+    background-color: rgb(32, 39, 41);
 }
 
 .nav {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  float: right;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .nav ul {
-  list-style: none;    
-  padding: 0;            
-  margin: 0;            
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav li {
-  margin: 0;         
+    margin: 0;
 }
 
 .right {
-  width: 80%;
-  height: 100vh;
-  overflow-y: scroll;
-  background-color: #abddfd;
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #abddfd;
+    padding-left: 40px;
 }
 
 .section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  color: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
 }
 
-/* label stuff*/
-
-.label {
-    font-size: 24px;
+.links {
     cursor: pointer;
     transition: opacity 0.3s, transform 0.3s;
-    color: rgb(0, 0, 0);             
-    text-decoration: none;
-    opacity: 0.5;
+    color: rgb(0, 0, 0);
+}
+.label {
+    cursor: pointer;
     transition: opacity 0.3s, transform 0.3s;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .label:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .label.active {
-  opacity: 1;
-  font-weight: bold;
-  opacity: 1;
-  transform: translateX(10px);
+    opacity: 1;
+    font-weight: bold;
+    transform: translateX(10px);
 }
+
 .label:visited {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+.about{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+    padding-right: 10px;
 }
