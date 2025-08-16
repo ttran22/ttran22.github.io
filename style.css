@@ -7,6 +7,7 @@
 html, body {
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
+    transition: opacity .5s;
 }
 
 .container {
@@ -65,10 +66,10 @@ html, body {
 }
 
 .section {
+    margin-top: 10%;
     height: 100vh;
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: center;
     color: rgb(0, 0, 0);
 }
 
@@ -104,13 +105,54 @@ html, body {
     margin-top: 0;
     margin-bottom: 10px;
     padding-top: 0;
+    vertical-align: top;
 }
 
 .about{
     display: block;
     margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-block-end: 2em;
+    margin-inline-start: 0em;
+    margin-inline-end: 2em;
     font-size: 18px;
 }
+
+/* experience */
+.experience-group{
+    align-content: center;
+}
+
+.single-experience {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.experience-date{
+    text-align: left;
+    white-space: nowrap;
+    width: 250px;
+    height: 25px;
+
+}
+
+.role{
+    text-align: left;
+    width:500px;
+    height:150px;
+}
+
+.role-summary{
+    font-size: 12px;
+    display: block;
+    padding-top: .75em;
+    padding-right: 3em;
+}
+
+.role-skills{
+    font-size: 12px;
+    padding-top: .75em;
+    white-space: nowrap;
+}
+
