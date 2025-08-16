@@ -157,7 +157,17 @@ html, body {
 }
 
 /* projects */
-
 .project{
     font-size: 24px;
+}
+
+.project-description{
+    font-size: 12px;
+}
+
+/* amateur hour -- photos -- followed w3school tutorial */
+.section-title{
+    font-size: 36px;
+    white-space: nowrap;
+    padding-bottom: .5em;
 }
