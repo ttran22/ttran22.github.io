@@ -101,7 +101,7 @@ html, body {
 }
 
 .title {
-    font-size: 32px;
+    font-size: 38px;
     margin-top: 0;
     margin-bottom: 10px;
     padding-top: 0;
@@ -124,9 +124,9 @@ html, body {
 
 .single-experience {
     display: flex;
-    gap: 2em;
+    gap: 4em;
     align-items: flex-start;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .experience-date{
@@ -134,34 +134,42 @@ html, body {
     white-space: nowrap;
     width: 250px;
     height: 25px;
-
 }
 
 .role{
     text-align: left;
-    width:500px;
-    height:150px;
+    width:750px;
+    height:200px;
 }
 
 .role-summary{
-    font-size: 12px;
+    font-size: 17px;
     display: block;
     padding-top: .75em;
     padding-right: 3em;
 }
 
 .role-skills{
-    font-size: 12px;
+    font-size: 14px;
     padding-top: .75em;
     white-space: nowrap;
 }
 
 /* projects */
+
+.project-object{
+    padding-bottom: .5em;
+}
 .project{
     font-size: 24px;
 }
 
 .project-description{
+    font-size: 16px;
+    width: 800px;
+}
+
+.extra-information{
     font-size: 12px;
 }
 
@@ -171,3 +179,4 @@ html, body {
     white-space: nowrap;
     padding-bottom: .5em;
 }
+
